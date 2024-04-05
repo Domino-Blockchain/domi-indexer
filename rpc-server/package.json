@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.30.7",
-    "elysia": "latest",
+    "elysia": "^1.0.13",
     "postgres": "^3.4.4"
   },
   "devDependencies": {
