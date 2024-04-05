@@ -1,7 +1,0 @@
-{
-  "libpath": "/home/justblender/solana-accountsdb-plugin-postgres/geyser-plugin/target/release/libdomichain_geyser_plugin_inscriptions.so",
-  "connection_str": "host=localhost user=postgres password=postgres port=5432",
-  "threads": 20,
-  "batch_size": 20,
-  "panic_on_db_errors": true
-}

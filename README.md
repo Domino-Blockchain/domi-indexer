@@ -5,7 +5,7 @@ configuration file looks like the following:
 
 ```
 {
-	"libpath": "~/indexer-geyser-plugin/target/release/libdomichain_geyser_plugin_inscriptions.so",
+	"libpath": "~/indexer/geyser-plugin/target/release/libdomichain_geyser_plugin_inscriptions.so",
     "connection_str": "host=localhost user=postgres password=postgres port=5432",
 	"threads": 20,
 	"batch_size": 20,

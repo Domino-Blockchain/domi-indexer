@@ -1,0 +1,7 @@
+{
+  "libpath": "/home/justblender/domi-indexer/geyser-plugin/target/release/libdomichain_geyser_plugin_inscriptions.so",
+  "connection_str": "host=localhost user=postgres password=Gb2pl6F63tfy2fz port=5432",
+  "threads": 20,
+  "batch_size": 20,
+  "panic_on_db_errors": true
+}
