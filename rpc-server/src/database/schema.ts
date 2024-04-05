@@ -23,9 +23,8 @@ export const inscriptions = pgTable("inscriptions", {
   slot: bigint("slot", { mode: "number" }).notNull(),
   signature: text("signature").notNull(),
   account: text("account").notNull(),
+  mint_account: text("mint_account").notNull(),
   metadata_account: text("metadata_account").notNull(),
   authority: text("authority").notNull(),
-  data: bytea("data"),
-  write_version: bigint("write_version", { mode: "number" }),
   updated_on: timestamp("updated_on").notNull(),
 });

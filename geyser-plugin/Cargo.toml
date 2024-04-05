@@ -21,14 +21,14 @@ postgres-openssl = { version = "0.5.0"}
 serde = "1.0.145"
 serde_derive = "1.0.145"
 serde_json = "1.0.85"
-domichain-geyser-plugin-interface = { path = "../domichain/geyser-plugin-interface" }
-domichain-logger = { path = "../domichain/logger" }
-domichain-measure = { path = "../domichain/measure" }
-domichain-metrics = { path = "../domichain/metrics" }
-domichain-runtime = { path = "../domichain/runtime" }
-domichain-sdk = { path = "../domichain/sdk" }
-domichain-transaction-status = { path = "../domichain/transaction-status" }
-mpl-inscription-program = { path = "../mpl-inscription/programs/inscription" }
+domichain-geyser-plugin-interface = { path = "../../domichain/geyser-plugin-interface" }
+domichain-logger = { path = "../../domichain/logger" }
+domichain-measure = { path = "../../domichain/measure" }
+domichain-metrics = { path = "../../domichain/metrics" }
+domichain-runtime = { path = "../../domichain/runtime" }
+domichain-sdk = { path = "../../domichain/sdk" }
+domichain-transaction-status = { path = "../../domichain/transaction-status" }
+mpl-inscription-program = { path = "../../mpl-inscription/programs/inscription" }
 thiserror = "1.0.37"
 tokio-postgres = "0.7.7"
 
@@ -38,9 +38,9 @@ libloading = "0.7.3"
 serial_test = "0.9.0"
 socket2 = { version = "0.4.7", features = ["all"] }
 
-domichain-account-decoder = { path = "../domichain/account-decoder" }
-domichain-core = { path = "../domichain/core" }
-domichain-local-cluster = { path = "../domichain/local-cluster" }
-domichain-net-utils = { path = "../domichain/net-utils" }
-domichain-streamer = { path = "../domichain/streamer" }
+domichain-account-decoder = { path = "../../domichain/account-decoder" }
+domichain-core = { path = "../../domichain/core" }
+domichain-local-cluster = { path = "../../domichain/local-cluster" }
+domichain-net-utils = { path = "../../domichain/net-utils" }
+domichain-streamer = { path = "../../domichain/streamer" }
 tempfile = "3.3.0"
